@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Tealium analytics POC</title>
+</head>
+<body>
+    <script>
+        window.utag_data={
+            'site_type': 'responsive', 
+            'site_country': 'us', 
+            'site_language': 'en', 
+            'site_region': 'americas',  
+            'site_currencyCode': 'usd',  
+            'page_section': 'business center',
+            'page_detail': 'los',
+            'visitor_customerID': '823746', 
+            'visitor_imcID': '2034952', 
+            'visitor_partyID': '2034952', 
+            'visitor_pinNumber': '123', 
+            'visitor_userProfile': 'distributor' 
+        }
+    </script>
+<script type="text/javascript"> (function(a,b,c,d){ a='//tags.tiqcdn.com/utag/amway/ana-biz-center/dev/utag.js'; b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true; a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a); })(); </script>
+   
+    <script>
+        utag.link({
+            'event_name': 'click_action',
+            'click_detail': 'detaileventtest'
+        })
+    </script>
+</body>
